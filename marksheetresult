@@ -1,0 +1,19 @@
+math=int (input ("Enter Maths Marks..:"))
+eng=int (input("Enter English Marks..:"))
+sult = math + eng
+result =(sult /200)*100
+print ("obtain Marks-:",result)
+
+if result >=90:
+    print(" Exelent you got ..A+ Grade",result,"%")
+elif result >=80:
+    print(" Exelent you got ..A Grade",result,"%")
+elif result >=70:
+    print(" Good you got ..B Grade",result,"%")
+elif result >=60:
+    print(" Exelent you got ..C Grade",result,"%")
+elif result >=50:
+    print(" Exelent you got ..D Grade",result,"%")
+
+else:
+    print (" Regret your below Passing Marks")
